@@ -39,13 +39,13 @@
 .responsive-tabs__heading--active:focus,
 .responsive-tabs__list__item--active:focus { outline: none !important;}
 
-.responsive-tabs__list { font-size: 1.2em; margin: 1em 0 0 0; padding: 0;border-bottom: 1px solid #ddd; padding-bottom:11px; line-height: 1em;}
-.responsive-tabs__list__item { background:#76949B; padding: 10px 20px;  margin-right: 1em; border-top-left-radius: 5px; border-top-right-radius: 5px;border: 1px solid #ddd;color:#fff }
+.responsive-tabs__list { font-size: 1.2em; margin: 1em 0 0 0; padding: 0;border-bottom: 1px solid #ddd; padding-bottom:11px; line-height: 1em;position: fixed;width: 830px;margin-top: 13.3px}
+.responsive-tabs__list__item { background:#76949B; padding: 10px 20px;   border-top-left-radius: 5px; border-top-right-radius: 5px;border: 1px solid #ddd;color:#fff }
 .responsive-tabs__list__item:hover {background: #76949B }
 .responsive-tabs__list__item--active, 
 .responsive-tabs__list__item--active:hover {  background: #fff; border-bottom-color: #fff;color:#000;}
 
-.responsive-tabs__panel { margin-bottom: 50px;}
+.responsive-tabs__panel { margin-bottom: 50px;border-right: 1px solid #ddd;border-left:1px solid #ddd;}
 
 @media (max-width: 767px) {
 	.responsive-tabs__heading { 
