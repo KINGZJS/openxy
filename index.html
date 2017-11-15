@@ -1,0 +1,56 @@
+<!doctype html>
+	<head>
+		<title>Responsive Tabs Demo - Pete Love</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/responsive-tabs.css">
+		<style type="text/css">
+
+			/* Styles for demo page only - not required */
+
+			body {
+				background: #fff;
+				color: #333;
+		
+				font-family: Helvetica, Arial, sans-serif;
+				line-height: 1.5em;
+				
+			}
+
+			h1, h2 { margin: 1em 0 1.5em 0; color: #0f556f}
+			.tabs h1, .tabs h2 { color: #333; margin-bottom: 1em;}
+			.tabs ul, .tabs ol, .tabs p { margin-top:0; padding-top: 1em;}
+			.tabs ul li, .tabs ol li { margin-bottom: 0.5em;}
+			hgroup h2 { font-size: 1.1em; font-weight: normal; position: absolute; top: 16px; right:20px;}
+			.content{
+				border-bottom: 1px solid #ddd;height: 500px;border-right:1px solid #ddd; border-left:1px solid #ddd; 
+			}
+			
+			
+		</style>
+	</head>
+	<body style="background-color: rgb(55,95,106)">
+	
+
+		<div class="responsive-tabs" ">
+
+			<h2>Key features</h2>
+			<div class="content">	
+			</div>
+			<h2>How to use</h2>
+			<div class="content">
+			</div>
+			<h2>How to use</h2>
+			<div class="content">
+			</div>
+		</div>
+
+		
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="javascript/responsiveTabs.js"></script>
+		<script>
+		$(document).ready(function() {
+			RESPONSIVEUI.responsiveTabs();
+		})
+		</script>
+	</body>
+</html>
